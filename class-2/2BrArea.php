@@ -1,5 +1,8 @@
 <?php
-$a=3.1416; //pay r skyar
-$r=5;
-$rasult=$a*$r*$r;
-echo $rasult;
+define("PI",3.1416 );
+$r=8;
+$are =  PI * $r* $r;
+echo $are;
+
+$circumference = 2 * PI * $r;
+echo $circumference;
